@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-representes one function that make route to '/'
+representes one route
 listening on 0.0.0.0:5000
 """
 
