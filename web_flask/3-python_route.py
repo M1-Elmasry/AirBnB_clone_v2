@@ -47,7 +47,7 @@ def python(text="is cool"):
         text (str | 'is cool'): text that will be shown
         in the page after 'python' word
     """
-    return f"python {text.replace('_', ' ')}"
+    return f"Python {text.replace('_', ' ')}"
 
 
 if __name__ == "__main__":
