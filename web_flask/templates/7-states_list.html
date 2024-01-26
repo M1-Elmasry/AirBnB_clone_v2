@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <TITLE>HBNB</TITLE>
+    </HEAD>
+    <BODY>
+        <H1>States</H1>
+        <UL>
+          {% for state_obj in states_objects %}
+            <LI>{{state_obj.id + ": "}}<B>{{ state_obj.name }}</B></LI>
+          {% endfor %}
+        </UL>
+    </BODY>
+</HTML>
